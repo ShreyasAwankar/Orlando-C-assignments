@@ -1,4 +1,4 @@
-// Write a program in C to add the elements of two same size matrices.
+// Write a program in C to add the elements of two same size matrices by taking input from the user.
 #include <stdio.h>
 void main()
 {

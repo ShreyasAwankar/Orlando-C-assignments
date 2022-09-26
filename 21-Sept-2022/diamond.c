@@ -1,3 +1,4 @@
+// Print a diamond pattern by taking an input from the user.
 #include <stdio.h>
 void main()
 {

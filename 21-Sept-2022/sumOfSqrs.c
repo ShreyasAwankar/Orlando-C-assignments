@@ -1,14 +1,29 @@
+/*
+Print the following pattern.
+    *
+   ***
+  *****
+ *******
+ Each line should contain an odd numbers of asteric.
+*/
 #include <stdio.h>
 void main()
 {
-    int n, sum = 0, square;
-    printf("Enter your number\n");
+    int i = 1, n, j, k;
+    printf("How many lines you want to print?\n");
     scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
+    while (i <= n)
     {
-        square = i * i;
-        sum += square;
-        printf("%d\t", square);
+        printf("\n");
+        for (j = 1; j <= n - i; j++)
+        {
+            printf(" ");
+        }
+        
+        for (k = 1; k <= 2*i-1; k++)
+        {
+            printf("*");
+        }
+        i++;
     }
-    printf("\nThe sum of square of all natural numbers upto %d is %d", n, sum);
 }
