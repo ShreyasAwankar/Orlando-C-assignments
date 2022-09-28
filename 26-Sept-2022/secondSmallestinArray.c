@@ -25,7 +25,7 @@ void main()
     int min2 = 2147483647;
     for (i = 2; i < e; i++)
     {
-        if (array[i] < min2 && array[i] > min1)
+        if (array[i] <= min2 && array[i] > min1)
         {
             min2 = array[i];
         }
