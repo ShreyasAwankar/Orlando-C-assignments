@@ -48,7 +48,7 @@ int palindrome(int a)
         a /= 10;
     }
     if (reversed == b)
-    return 1;
+        return 1;
     return 0;
 }
 
@@ -73,9 +73,9 @@ void main()
             break;
         case 2:
             if (Armstrong(x) == 1)
-                printf("The given number is not a Armstrong number.\n");
+                printf("The given number is an Armstrong number.\n");
             else
-                printf("The given number is a Armstrong number.\n");
+                printf("The given number is not an Armstrong number.\n");
             break;
         case 3:
             if (palindrome(x) == 0)

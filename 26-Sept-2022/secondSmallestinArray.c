@@ -21,11 +21,11 @@ void main()
             min1 = array[i];
         }
     }
-    printf("%d ", min1);
+    // printf("%d ", min1);
     int min2 = 2147483647;
     for (i = 2; i < e; i++)
     {
-        if (array[i] <= min2 && array[i] > min1)
+        if (array[i] < min2 && array[i] > min1)
         {
             min2 = array[i];
         }

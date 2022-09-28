@@ -22,7 +22,7 @@ void main()
         }
     }
     printf("%d ", max1);
-    int max2 = 2147483648;
+    int max2 = -2147483648;
     for (i = 0; i < e; i++)
     {
         if (array[i] >= max2 && array[i] < max1)
