@@ -1,5 +1,4 @@
-nt c = n;
-        // for (int r = c; r<=c; r++){
-        //     printf("%d ", r);
-        //     c--;
+ = n; l <=n; l--)
+        // {
+        //     printf("%d ", l);
         // }
