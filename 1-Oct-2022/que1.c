@@ -3,9 +3,10 @@
 void primechecker(int a){
     int shivgami = 1;
     for(int i = 2;i<=a/2;i++){
-        if(a%i==0)
+        if(a%i==0){
         shivgami=0;
         break;
+        }
     }
     if(shivgami ==1 && a!=1)
     printf("%d ",a);

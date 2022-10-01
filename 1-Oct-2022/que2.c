@@ -1,6 +1,7 @@
 // Write a program to pass every element of 2D array to a function and five count of even and odd numbers.
 #include <stdio.h>
-void checker(int x, int *c1, int *c2)
+static int c1, c2;
+void checker(int x)
 {
     // c1 = 0, c2 = 0;
     if (x % 2 == 0)
@@ -24,9 +25,9 @@ void main()
         {
             printf("Array[%d][%d]?\n", j, k);
             scanf("%d", &array[j][k]);
-            checker(array[j][k], &count1, &count2);
+            checker(array[j][k]);
         }
     }
-    printf("The even elements are %d \n", count1);
-    printf("The even elements are %d \n", count2);
+    printf("The even elements are %d \n", c1);
+    printf("The odd elements are %d \n", c2);
 }
