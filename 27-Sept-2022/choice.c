@@ -3,6 +3,8 @@
 // choice 1 : Check for palindrome number.
 // choice 1 : Check for Armstrong number.
 // Using functions.
+
+// This program may not work in vs code for Armstrong number in VS code but it worked on other online compilers
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -89,7 +91,7 @@ void main()
             printf("Please enter the correct choice out of 1,2,3,4.\n");
             goto ABC;
         }
-        printf("Do you want to continue?[y/n]\n");
+        printf("Do you want to continue?[y/n]\nAny thing except 'n' will be treated as 'y' \n");
         scanf(" %c", &option);
     } while (option != 'n');
 }
