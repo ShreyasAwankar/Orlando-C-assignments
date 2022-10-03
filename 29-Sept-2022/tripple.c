@@ -4,7 +4,7 @@ void main(){
     int a,i,c=0;
     printf("How many elements you want in your array?\n");
     scanf("%d",&a);
-    int array[a+2];
+    int array[a];
     for(i=0; i<a; i++){
         printf("array[%d]=?\n", i);
         scanf("%d",&array[i]);
