@@ -8,7 +8,6 @@ A:
     int d1, d2, mul;
     printf("Enter first character\n");
     scanf("%c", &ch1);
-    // _flsbuf();
     printf("Enter second character\n");
     scanf(" %c", &ch2);
     if (ch1 >= 48 && ch1 <= 57 && ch2 >= 48 && ch2 <= 57)
