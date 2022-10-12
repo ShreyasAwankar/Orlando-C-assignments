@@ -1,13 +1,15 @@
-// Write a program to pass every element of 2D array to a function and five count of even and odd numbers.
+// Write a program to pass every element of 2D array to a function and find count of even and odd numbers.
 #include <stdio.h>
 static int c1, c2;
 void checker(int x)
 {
-    // c1 = 0, c2 = 0;
+    c1 = 0, c2 = 0;
     if (x % 2 == 0)
         c1++;
+        // printf("%d", x);
     else
         c2++;
+        // printf("%d", x);
 }
 
 void main()

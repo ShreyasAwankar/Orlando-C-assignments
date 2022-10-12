@@ -4,6 +4,7 @@
 
 void revstring(char *str1)
 {
+    
     int i, len, temp;
     len = strlen(str1);
     for (i = 0; i < len / 2; i++)
